@@ -1,0 +1,40 @@
+/* dashboard.css */
+
+.dashboard-container {
+    width: 100%;
+    overflow-x: auto;
+  }
+  
+  table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 40px;
+  }
+  
+  th, td {
+    padding: 10px;
+    text-align: left;
+    border: 1px solid #ddd;
+  }
+  
+  select {
+    width: 65%;
+    padding: 8px;
+    box-sizing: border-box;
+  }
+  
+  /* Add responsiveness for smaller screens */
+  @media screen and (max-width: 600px) {
+    th, td {
+      display: block;
+      width: 100%;
+      box-sizing: border-box;
+    }
+  
+    th, td {
+      text-align: center;
+    }
+  }
+  
+
+ 

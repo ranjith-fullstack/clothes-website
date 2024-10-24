@@ -1,0 +1,238 @@
+.navbg{
+    background-color: rgb(24,24,24);
+    margin-bottom:10px ;
+    width: 100%;
+    height: 70px;
+    color: white;
+    padding-left: 30px;
+    padding-right: 20px;
+    padding-top:10px;
+    font-family: FFDINforPuma, Inter, -apple-system, system-ui, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif; 
+    position: fixed;
+    z-index: 9999;
+    margin-left: 0;
+    box-shadow: 0 8px 10px rgba(0, 0, 0, 0.277);
+    top: 0;
+    right: 0;
+    left: 0;
+    padding-right: 40px;
+}
+
+.navbg p{
+    color: white;
+    margin: 10px;
+}
+.underlinee{
+    font-size: 20px;
+}
+.underline:hover{
+    text-decoration: none;
+    
+}
+.logo {
+    height: 50px;
+    width: 50px;
+    border-radius: 50px;
+  margin-right: 20px;
+}
+.search {
+    border-radius: 20px;
+    height: 40px;
+    padding-left: 10px;
+    border-style: none;
+    margin-right: 20px;
+    padding-right: 10px;
+    margin-top: 5px;
+}
+
+
+
+
+
+
+
+.fotter {
+    background-color: rgb(24,24,24);
+    height: 500px;
+    width: 100%;
+    color: white;
+    margin-left: 0;
+    margin-top: 0;
+    top:0;
+}
+
+@media (300px <= width <= 600px) {
+    .responcefotter div{
+        text-align: center;
+    }
+    .fotter {
+        height: 1000px;
+        width: 100%;
+    }  
+}
+
+.responcefotter h3{
+    font-family:"roboto";
+    font-weight: bolder; 
+    margin-bottom: 25px;
+}
+
+.responcefotter a{
+    color: white;
+    font-style: oblique;
+
+}
+.responcefotter a:hover{
+    padding-left: 5px;
+  
+    text-decoration: none;
+    font-weight: 500;
+    transition: 0.10s;
+
+}
+.logoo {
+    height: 80px;
+    width: 80px;
+    border-radius: 50px;
+  }
+
+.martlogo{
+    padding-left: 10px;
+    font-size: 15px;
+    margin-top:30px;
+    font-weight: 500;
+    font-family:"roboto";
+}
+
+
+.sliderrr {
+    width: 100%;
+    height: 300px;
+    overflow: hidden;
+}
+
+.sliderr{
+    position: absolute;
+}
+
+.responsivenav li {
+    list-style: none;
+    padding: 10px;
+    padding-top: 20px;
+    padding-left: 13px;
+    box-shadow:4px 4px 4px 2px rgba(0, 0, 0, 0.085);
+
+}
+.responsivenav li a {
+    text-decoration:none;
+   font-family:Roboto, sans-serif;
+   color: black;
+   list-style: none;
+}
+
+.responsivenav {
+    position: absolute;
+    background-color: white;
+    height: 100vh;
+    width: 40vh;
+    left: -300px;
+    overflow: hidden;
+    transition: 0.20s;
+}
+.togglee {
+    left: 0px;
+    z-index: 9999;
+    position:fixed;
+}
+
+.responsivenav li:hover {
+    border-radius: 10px; 
+    transform: scale(1.1); 
+    
+}
+.responsivenav li p:hover{
+ 
+    font-size: larger;
+}
+.slidebutton {
+    cursor: pointer;
+    font-size: 30px;
+}
+
+
+
+.app {
+    cursor: pointer;
+}
+
+.hrtag {
+    height: 1px;
+    background-color: white;
+    border-style: solid;
+}
+
+@media (300px <= width <= 600px) {
+    .downloadapp{
+        font-size:20px;
+        margin-top: 10px;
+    }
+}
+
+html{
+    scroll-behavior: smooth;
+  }
+  .gotopbtn{
+    position: fixed;
+    width: 50px;
+    height: 50px;
+    background: #27ae60;
+    bottom: 40px;
+    right: 50px;
+    text-decoration: none;
+    text-align: center;
+    line-height: 50px;
+    color: white;
+    font-size: 22px;
+  }
+
+ 
+  .gotopbtn{
+    position: fixed;
+    width: 50px;
+    height: 50px;
+    background: #000000d5;
+    bottom: 40px;
+    right: 50px;
+    text-decoration: none;
+    text-align: center;
+    line-height: 50px;
+    color: white;
+    font-size: 22px;
+    cursor: pointer;
+  }
+
+ a:hover{
+    margin: 0;
+    padding: 0;
+ }
+
+ .capdropdown{
+    height: 40px;
+    background-color: transparent;
+    color: white;
+    border-style: none;
+ }
+ 
+.fotterresponsive{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+@media (width <= 600px){
+    .fotterresponsive{
+        display: flex;
+        flex-direction: column;
+    }
+}
+ 

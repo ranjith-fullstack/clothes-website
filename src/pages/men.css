@@ -1,0 +1,153 @@
+.tshirtimage{
+    height: 350px;
+    width: 300px;
+}
+.tshirtimage:hover{
+    transform: scale(1.20); 
+    transition: 0.5s;
+    
+}
+.mobileholders{
+    height: 350px;
+    width: 300px;
+    
+}
+.mobileholders:hover{
+    transform: scale(1.20); 
+    transition: 0.5s;
+    
+}
+
+
+.button {
+    font-size: 13px;
+    border-style: none;
+    background-color: rgb(24,24,24) ;
+    color: white;
+    padding: 8px;
+    border-radius: 5px;
+
+}
+.tshirtbox{
+    box-shadow: 0 8px 10px rgba(0, 0, 0, 0.259);
+    margin-bottom: 12px;
+    padding: 15px;
+}
+.crop{
+    overflow: hidden;
+}
+
+
+.tshirtbox h4{
+    font-size: 18px;
+    margin-top: 10px;
+    font-family: 'roboto';
+ }
+ .tshirtbox h1{
+     font-size: 23px;
+     margin-bottom: 0px;
+     font-weight: bold;
+     
+ }
+ .price{
+     color: red;
+     text-decoration: line-through;
+     font-size: 18px;
+    margin-bottom: 10px;
+    margin-left: 8px;
+    font-weight: 500;
+ }
+ .heart{
+    margin-top: 5px;
+    margin-right: 10px;
+    font-size: 25px;
+    color: rgba(255, 0, 0, 0.8);
+ }
+ .totalproducts{
+    margin-left: 25px;
+    font-weight: bold;
+    font-size: 25px;
+ }
+ @media (300px <= width <= 600px){
+    .tshirtimage{
+        height: 250px;
+        width: 200px;
+    }  
+    .tshirtbox h4{
+       font-size: 18px;
+       margin-top: 10px;
+       font-family: 'roboto';
+
+    }
+    .tshirtbox h1{
+        font-size: 20px;
+        margin-bottom: 0px;
+        font-weight: bold;
+        
+    }
+    .price{
+        color: rgb(255, 0, 0);
+        text-decoration: line-through;
+        font-size: 15px;
+       margin-bottom: 10px;
+       margin-left: 8px;
+       font-weight: 500;
+    }
+    .button {
+        font-size: 13px;
+        border-style: none;
+        background-color: rgb(24,24,24) ;
+        color: white;
+        padding: 5px;
+        border-radius: 5px;
+    
+    }
+}
+.menbox{
+    margin-top: 80px;
+    margin-bottom: 30px;
+}
+.mencontent{
+    padding: 15px;
+    padding-top: 15px;
+    
+}
+.mencontent h1{
+    font-size: 25px;
+    font-weight: bold;
+}
+.mencontent p{
+    font-family: 'roboto';
+
+}
+.buttons button{
+    border-style: solid;
+    width: 150px;
+    border-color: rgba(128, 128, 128, 0.512);
+    background-color: transparent;
+    font-weight: bold;
+    padding: 8px;
+    
+}
+.selector{
+    border-style: solid;
+    width: 150px;
+    border-color: rgba(128, 128, 128, 0.512);
+    background-color: transparent;
+    font-weight: bold;
+    padding: 8px;
+    margin-left: 20px;
+    border-width: 2px;
+    margin-right: 10px;
+}
+@media(width <= 600px){
+    .selector{
+        margin-bottom: 10px;
+    }
+}
+
+.offer{
+    color: green ;
+    font-weight: bold;
+    font-size: 18px;
+}

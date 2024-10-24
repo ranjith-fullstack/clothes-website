@@ -1,0 +1,98 @@
+.login h1{
+    font-weight: bolder;
+    font-family: 'roboto';
+    text-align: center;
+    font-size: 30px;
+    }
+.login input {
+    width: 90%;
+    height: 50px;
+    border-radius:15px;
+    border-color: rgba(0, 0, 0, 0.166);
+    padding-left: 15px;
+    margin:20px;
+}
+.login p{
+
+    font-weight: 400;
+}
+.login button {
+    background-color: rgb(37, 41, 34);
+    border-style: none;
+    width: 100px;
+    height: 40px;
+    border-radius: 10px;
+    color: white;
+    margin-top: 20px;
+    font-weight: bold;
+    margin-bottom: 30px;
+    margin-left: 20px;
+}
+.login{
+    width: 400px;
+}
+.loginbgg {
+    background-color: rgba(128, 128, 128, 0.091);
+}
+
+
+.homelink:hover{
+    color: black;
+    text-decoration: none;
+    font-size: 18px;
+}
+
+.customdesign{
+    font-size: 20px;
+    font-weight: bold;
+    color: mediumvioletred;
+}
+
+.videobox{
+    margin-bottom: -10px;
+    
+}
+
+.overthetop{
+    z-index: 999;
+}
+
+.testclass{
+    width: 100%;
+    height: 90%;
+    object-fit: cover;
+    
+}
+
+.centerrr{
+    margin-top: 150px;
+}
+
+@media (width <= 600px){
+    .testclass{
+        width: 100%;
+        height: 100vh;
+        object-fit: cover;
+        
+    } 
+    .login input {
+        margin:12px;
+        width: 300px;
+    }
+    .login h1{
+        font-size: 25px;
+    }
+    .login p{
+        font-size: 12px;
+        font-weight: 400;
+    }
+    .extendvideo{
+        height: 600px;
+    }
+    .buttonwidthh{
+        width: 400px;
+    }
+    .buttonsize{
+        font-size: 40px;
+    }
+}

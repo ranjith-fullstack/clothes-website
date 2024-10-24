@@ -1,0 +1,91 @@
+.cartbox{
+    margin-top: 70px;
+}
+.cartimg {
+    height: 150px;
+    width: 130px;
+    border-radius: 10px;
+}
+.cartitem {
+    display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.cartitembox{
+    box-shadow: 0 8px 10px rgba(0, 0, 0, 0.259);
+    border-style: none;
+    width: 500px;
+    height: 250px;
+    padding: 10px;
+   
+}
+.cartitembox h1{
+    font-size: 20px;
+    margin-top: 10px;
+}
+.cartitembox input{
+    width: 40px;
+}
+.cartitembox button{
+    border-style: none;
+    margin: 5px;
+    background-color: rgba(0, 0, 0, 0.867);
+    background-size: cover;
+    color: white;
+    border-radius: 5px;
+    width: 30px ;
+}
+.removebtn{
+    width: 80px !important;
+}
+.totalamount{
+    color: red;
+    font-size: 35px;
+}
+.cartimgg{
+    height: 200px;
+    width: 200px;
+}
+@media (300px <= width <= 600px){
+    .cartimg{
+        margin-left: 20px;
+    }
+    .cartimg {
+        height: 130px;
+        width: 100px;
+        border-radius: 10px;
+    }
+    .cartitembox h1{
+        font-size: 15px;
+        
+    }
+    .cartitembox{
+        width: 300px;
+        height: 180px;
+        padding: 5px;
+       
+    }
+    
+}
+.shoppping{
+    background-color: rgb(37, 41, 34);
+    border-style: none;
+    width: 150px;
+    height: 40px;
+    border-radius: 10px;
+    color: white;
+    margin-top: 20px;
+    font-weight: bold;
+    margin-bottom: 30px;
+    margin-left: 20px;
+    font-size: 12px;
+}
+
+.testimgs{
+    height: 1000px;
+    width: 1000px;
+}
+.ceter{
+    text-align: center;
+}
